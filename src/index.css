@@ -7,7 +7,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: inter-light;
+  src: url('../src/fonts/Inter-Light-slnt=0.ttf');
+}
+
+@font-face {
+  font-family: inter-thin;
+  src: url('../src/fonts/Inter-Thin-slnt=0.ttf');
+}
+
+@font-face {
+  font-family: inter-medium;
+  src: url('../src/fonts/Inter-Medium-slnt=0.ttf');
+}
+
+@font-face {
+  font-family: inter-regular;
+  src: url('../src/fonts/Inter-Regular-slnt=0.ttf');
 }
