@@ -4,8 +4,10 @@ import MainView from './components/mainView';
 
 function App() {
   return (
-    <div className="container mainContainer">
-      <MainView></MainView>
+    <div className="backgroundWrapper">
+      <div className="container mainContainer">
+        <MainView></MainView>
+      </div>
     </div>
   );
 }
