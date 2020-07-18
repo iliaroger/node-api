@@ -16,15 +16,52 @@ export default function mainView() {
       </div>
       <div className="row mainViewRow">
         <div className="col-md-6 mainViewRoutes">
-          <h2>Routes</h2>
+          <h3>All Routes - GET Requests / JSON</h3>
           <br></br>
-          <span>
-            <p>
-              {' '}
-              <a href="/people">/people </a> - Fetch 10 people with multiple
-              data endpoints
-            </p>
-          </span>
+          <div className="routeWrapper">
+            <span>
+              <p>
+                {' '}
+                <a href="/people">/people </a> -{'>'} Fetch 20 people with
+                multiple data endpoints
+              </p>
+            </span>
+            <span>
+              <p>
+                {' '}
+                <a href="/stocks">/images </a> -{'>'} Fetch 20 random
+                non-copyrighted images
+              </p>
+            </span>
+            <span>
+              <p>
+                {' '}
+                <a href="/cities">/cities </a> -{'>'} Fetch 30 cities with
+                multiple data endpoints
+              </p>
+            </span>
+            <span>
+              <p>
+                {' '}
+                <a href="/articles">/articles </a> -{'>'} Fetch 30 random
+                articles from Wikipedia.org
+              </p>
+            </span>
+            <span>
+              <p>
+                {' '}
+                <a href="/comments">/comments </a> -{'>'} Fetch 50 comments made
+                by artists and philosophers
+              </p>
+            </span>
+            <span>
+              <p>
+                {' '}
+                <a href="/movies">/movies </a> -{'>'} Fetch 50 movies ranging
+                from comedy to thrillers
+              </p>
+            </span>
+          </div>
         </div>
         <div className="col-md-6">
           <img src="/images/serverImage.svg" alt="server"></img>
@@ -34,14 +71,14 @@ export default function mainView() {
         <div className="col-md-12">
           <h5>
             Feel free to use this API for quick data fetching and testing.{' '}
-            <br></br> It is not recommended to use this API for production
-            projects of any type or form.
+            <br></br> It is not recommended to use this API for any production
+            projects.
           </h5>
           <br></br>
           <p>
             Made with Express and MySQL with{' '}
             <span role="img" aria-label="heart emoji">
-              &#x2764;
+              &#128150;
             </span>{' '}
           </p>
         </div>

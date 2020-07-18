@@ -20,6 +20,16 @@
   margin-top: 2%;
 }
 
+.mainViewRow p {
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.routeWrapper {
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
 .footer {
   text-align: center;
   margin-top: 5%;
