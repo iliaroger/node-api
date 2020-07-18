@@ -16,11 +16,14 @@ export default function mainView() {
       </div>
       <div className="row mainViewRow">
         <div className="col-md-6 mainViewRoutes">
-          <h1>Routes</h1>
+          <h2>Routes</h2>
           <br></br>
           <span>
-            <a href="/people">/people </a>
-            <p> - Fetch 10 people with multiple </p>
+            <p>
+              {' '}
+              <a href="/people">/people </a> - Fetch 10 people with multiple
+              data endpoints
+            </p>
           </span>
         </div>
         <div className="col-md-6">
@@ -34,6 +37,13 @@ export default function mainView() {
             <br></br> It is not recommended to use this API for production
             projects of any type or form.
           </h5>
+          <br></br>
+          <p>
+            Made with Express and MySQL with{' '}
+            <span role="img" aria-label="heart emoji">
+              &#x2764;
+            </span>{' '}
+          </p>
         </div>
       </div>
     </>
