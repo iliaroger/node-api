@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-export default function mainView() {
+export default function MainView() {
   return (
     <>
       <div className="row topViewRow">
@@ -21,8 +22,7 @@ export default function mainView() {
           <div className="routeWrapper">
             <span>
               <p>
-                {' '}
-                <a href="/people">/people </a> -{'>'} Fetch 20 people with
+                <Link to="/people">/people </Link>-{'>'} Fetch 20 people with
                 multiple data endpoints
               </p>
             </span>
