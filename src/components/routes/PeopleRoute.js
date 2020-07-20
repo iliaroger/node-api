@@ -9,6 +9,7 @@ export default function PeopleRoute() {
     fetch('/people')
       .then((res) => res.json())
       .then((json) => {
+        console.log(json);
         setPeopleData(JSON.stringify(json, undefined, 2));
         setDataLoaded(true);
       });
@@ -23,7 +24,7 @@ export default function PeopleRoute() {
         </div>
         <div className="col-md-12">
           <Link to="/">
-            <Button>Go Back</Button>
+            <Button style={{ marginBottom: '20px' }}>Go Back</Button>
           </Link>
         </div>
       </div>

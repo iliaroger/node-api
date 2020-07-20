@@ -22,42 +22,42 @@ export default function MainView() {
           <div className="routeWrapper">
             <span>
               <p>
-                <Link to="/people">/people </Link>-{'>'} Fetch 20 people with
+                <Link to="/people">/people </Link>-{'>'} Fetch 10 people with
                 multiple data endpoints
               </p>
             </span>
             <span>
               <p>
                 {' '}
-                <a href="/stocks">/images </a> -{'>'} Fetch 20 random
+                <a href="/stocks">/images </a> -{'>'} Fetch 10 random
                 non-copyrighted images
               </p>
             </span>
             <span>
               <p>
                 {' '}
-                <a href="/cities">/cities </a> -{'>'} Fetch 30 cities with
+                <a href="/cities">/cities </a> -{'>'} Fetch 10 cities with
                 multiple data endpoints
               </p>
             </span>
             <span>
               <p>
                 {' '}
-                <a href="/articles">/articles </a> -{'>'} Fetch 30 random
+                <a href="/articles">/articles </a> -{'>'} Fetch 10 random
                 articles from Wikipedia.org
               </p>
             </span>
             <span>
               <p>
                 {' '}
-                <a href="/comments">/comments </a> -{'>'} Fetch 50 comments made
+                <a href="/comments">/comments </a> -{'>'} Fetch 10 comments made
                 by artists and philosophers
               </p>
             </span>
             <span>
               <p>
                 {' '}
-                <a href="/movies">/movies </a> -{'>'} Fetch 50 movies ranging
+                <a href="/movies">/movies </a> -{'>'} Fetch 10 movies ranging
                 from comedy to thrillers
               </p>
             </span>
@@ -76,7 +76,7 @@ export default function MainView() {
           </h5>
           <br></br>
           <p>
-            Made with Express and MySQL with{' '}
+            Made with Express and SQL with{' '}
             <span role="img" aria-label="heart emoji">
               &#128150;
             </span>{' '}
