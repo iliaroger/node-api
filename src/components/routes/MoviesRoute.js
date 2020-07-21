@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { Button, Spinner } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-export default function PeopleRoute() {
-  const [peopleData, setPeopleData] = useState({});
+export default function MoviesRoute() {
+  const [moviesData, setMoviesData] = useState({});
   const [dataLoaded, setDataLoaded] = useState(false);
 
   useEffect(() => {
-    fetch('/people')
+    fetch('/movies')
       .then((res) => res.json())
       .then((json) => {
         console.log(json);
-        setPeopleData(JSON.stringify(json, undefined, 2));
+        setMoviesData(JSON.stringify(json, undefined, 2));
         setDataLoaded(true);
       });
   }, []);
@@ -19,10 +19,10 @@ export default function PeopleRoute() {
     <div className="container">
       <div className="row">
         <div className="col-md-12">
-          <h3>People in JSON format</h3>
+          <h3>Movies in JSON format</h3>
           <pre>
             {dataLoaded ? (
-              peopleData
+              moviesData
             ) : (
               <Spinner animation="border" role="status">
                 <span className="sr-only">Loading...</span>

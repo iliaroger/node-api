@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button, Spinner } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-export default function ImagesRoute() {
+export default function CitiesRoute() {
   const [citiesData, setCitiesData] = useState({});
   const [dataLoaded, setDataLoaded] = useState(false);
 
@@ -19,7 +19,7 @@ export default function ImagesRoute() {
     <div className="container">
       <div className="row">
         <div className="col-md-12">
-          <h3>Cities data in JSON format</h3>
+          <h3>Cities in JSON format</h3>
           <pre>
             {dataLoaded ? (
               citiesData

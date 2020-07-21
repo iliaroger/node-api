@@ -19,7 +19,7 @@ export default function ArticlesRoute() {
     <div className="container">
       <div className="row">
         <div className="col-md-12">
-          <h3>Articles data in JSON format</h3>
+          <h3>Articles in JSON format</h3>
           <pre>
             {dataLoaded ? (
               articlesData

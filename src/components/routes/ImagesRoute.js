@@ -19,7 +19,7 @@ export default function ImagesRoute() {
     <div className="container">
       <div className="row">
         <div className="col-md-12">
-          <h3>Images data in JSON format</h3>
+          <h3>Images in JSON format</h3>
           <pre>
             {dataLoaded ? (
               imagesData

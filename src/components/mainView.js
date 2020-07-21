@@ -24,15 +24,9 @@ export default function MainView() {
               <div className="routeWrapper">
                 <span>
                   <p>
-                    <Link to="/people">/people </Link>-{'>'} Fetch 10 people
-                    with multiple data endpoints
-                  </p>
-                </span>
-                <span>
-                  <p>
                     {' '}
-                    <a href="/stocks">/images </a> -{'>'} Fetch 10 random
-                    non-copyrighted images
+                    <a href="/articles">/articles </a> -{'>'} Fetch 10 random
+                    articles from Wikipedia.org
                   </p>
                 </span>
                 <span>
@@ -45,13 +39,6 @@ export default function MainView() {
                 <span>
                   <p>
                     {' '}
-                    <a href="/articles">/articles </a> -{'>'} Fetch 10 random
-                    articles from Wikipedia.org
-                  </p>
-                </span>
-                <span>
-                  <p>
-                    {' '}
                     <a href="/comments">/comments </a> -{'>'} Fetch 10 comments
                     made by artists and philosophers
                   </p>
@@ -59,8 +46,21 @@ export default function MainView() {
                 <span>
                   <p>
                     {' '}
+                    <a href="/stocks">/images </a> -{'>'} Fetch 10 random
+                    non-copyrighted images
+                  </p>
+                </span>
+                <span>
+                  <p>
+                    {' '}
                     <a href="/movies">/movies </a> -{'>'} Fetch 10 movies
                     ranging from comedy to thrillers
+                  </p>
+                </span>
+                <span>
+                  <p>
+                    <Link to="/people">/people </Link>-{'>'} Fetch 10 people
+                    with multiple data endpoints
                   </p>
                 </span>
               </div>
